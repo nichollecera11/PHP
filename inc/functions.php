@@ -40,7 +40,8 @@
     }
     function ensure_user_is_authenticated() {
         if (!is_user_authenticated()){
-            redirect('/3.2/login.php');    
+            redirect('/3.2/login.php');  
+            die();  
         }
     }
     ?>
