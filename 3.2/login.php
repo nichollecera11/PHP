@@ -6,6 +6,11 @@ $title = 'POST Input';
 require_once('./../inc/config.php');
 require_once('./../inc/functions.php');
 
+if (is_user_authenticated()) {
+    redirect('/3.3/admin.php');
+    die();
+}
+
 
 // if ($_SERVER['REQUEST_METHOD'] == "POST") {
 //     output($_POST);
