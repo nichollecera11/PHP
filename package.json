@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.22.2",
+    "prettier": "^3.4.1"
+  },
+  "name": "htdocs",
+  "description": "��#\u0000 \u0000P\u0000H\u0000P\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "linguist-languages": "^7.27.0",
+    "php-parser": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
